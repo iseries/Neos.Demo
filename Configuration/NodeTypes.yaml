@@ -74,6 +74,7 @@
      message: 'The homepage type is to be used only once and adds the shared footer.'
   superTypes:
     'Neos.NodeTypes:Page': TRUE
+    'Neos.Neos:Site': TRUE
   childNodes:
     'footer':
       position: 'end'
