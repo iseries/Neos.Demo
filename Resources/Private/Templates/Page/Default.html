@@ -10,7 +10,7 @@
 			<link rel="stylesheet" href="{f:uri.resource(path: '3/css/bootstrap.min.css', package: 'Neos.Twitter.Bootstrap')}" media="all" />
 			<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/NeosDemo.css', package: 'Neos.Demo')}" media="all" />
 			<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/Print.css', package: 'Neos.Demo')}" media="print" />
-			<f:if condition="{node.context.workspace.name} != 'live'">
+			<f:if condition="{workspaceName.live}">
 				<link rel="stylesheet" href="{f:uri.resource(path: 'Styles/Backend.css', package: 'Neos.Demo')}" media="all" />
 			</f:if>
 		</f:section>

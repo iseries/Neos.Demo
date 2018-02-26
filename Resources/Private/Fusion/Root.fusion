@@ -16,6 +16,7 @@ page = Page {
 				templatePath = 'resource://Neos.Demo/Private/Templates/Page/Default.html'
 				sectionName = 'stylesheets'
 				node = ${node}
+				workspaceName = ${contentQuery.workspaceName}
 			}
 		}
 
